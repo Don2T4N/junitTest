@@ -219,16 +219,16 @@ class JudgeUtilsTest {
 	}
 	
 	// ケースNo3
-		// ケース内容：16歳(04/01)でプレイ可能
+		// ケース内容：16歳(04/01)でプレイ不可能
 		// 誕生時刻(引数)：2000/04/01
-		// 現在時刻：2018/04/01
+		// 現在時刻：2016/04/01
 		// 合格条件：true
 		@Test
 		public void testIsRegisterdAge_16歳_プレイ不可() {
 			// 事前処理(Mock)
 					Calendar cal = Calendar.getInstance();
 					cal.clear();
-					cal.set(Calendar.YEAR, 2018);
+					cal.set(Calendar.YEAR, 2016);
 					cal.set(Calendar.MONTH, Calendar.APRIL);
 					cal.set(Calendar.DAY_OF_MONTH, 01);
 					Date date = cal.getTime();
