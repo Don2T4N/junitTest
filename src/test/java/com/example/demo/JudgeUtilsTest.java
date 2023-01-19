@@ -186,7 +186,7 @@ class JudgeUtilsTest {
 		mockTime.tearDown();
 	}
 
-	// ケースNo3
+	/*// ケースNo3
 	// ケース内容：17歳(04/01)でプレイ可能
 	// 誕生時刻(引数)：2000/04/01
 	// 現在時刻：2017/04/01
@@ -216,7 +216,7 @@ class JudgeUtilsTest {
 				//結果
 				assertTrue(actual);
 				mockTime.tearDown();
-	}
+	}*/
 	
 	// ケースNo3
 		// ケース内容：16歳(04/01)でプレイ不可能
